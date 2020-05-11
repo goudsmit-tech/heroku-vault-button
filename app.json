@@ -1,14 +1,14 @@
 {
   "name": "vault server",
   "description": "deploy a dev vault server to heroku",
-  "repository": "https://github.com/pallavkothari/vault",
+  "repository": "https://github.com/goudsmit-tech/vault",
   "keywords": ["vault", "server"],
   "buildpacks": [
     {
-      "url": "https://github.com/pallavkothari/heroku-buildpack-vault.git"
+      "url": "https://github.com/goudsmit-tech/heroku-buildpack-vault.git"
     },
     {
-      "url": "https://github.com/pallavkothari/heroku-buildpack-nginx"
+      "url": "https://github.com/goudsmit-tech/heroku-buildpack-nginx"
     }
   ],
   "addons": [
